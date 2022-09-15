@@ -1,0 +1,13 @@
+section{
+    width: 900px;
+    height: 900px;
+    background-color: rgb(14, 14, 235);
+ }
+ article{
+     width: 80px;
+     height: 80px;
+     background-color: aqua;
+     margin: 5px;
+     float: left;
+     border: 2px solid black;
+ }

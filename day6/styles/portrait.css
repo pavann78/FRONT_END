@@ -1,0 +1,16 @@
+section{
+    width: 900px;
+    height: 900px;
+    background-color: rgb(219, 149, 18);
+ }
+ article{
+     width: 80px;
+     height: 80px;
+     background-color: aqua;
+     margin: 5px;
+     float: left;
+ }
+ article:nth-child(1){
+    background-color: chartreuse;
+
+ }
