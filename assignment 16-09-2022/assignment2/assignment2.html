@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        section{
+            margin: 100px auto;
+            width:400px;
+            height: 100px;
+        }
+        div{
+            background-color: rgb(176, 160, 235); 
+            padding-left: 3px;      
+            float: left;    
+        }
+        .container{
+            background-color: rgb(225, 243, 145);
+        }
+        #al{
+            margin-top: 100px;
+        }
+        .m{
+            border: 2px solid black;
+            height: 600px;
+            width: 600px;
+            margin:100px auto;
+        }
+    </style>
+    <script>
+        var alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+        window.onload=function display(){
+            for(var i=0;i<alpha.length;i++){
+                //console.log(alpha[i]);
+                document.getElementById("al").innerHTML+="<div>"+alpha[i]+"</div>";
+            }
+        }
+        function generate(){
+            document.getElementById("out").textContent="";
+            var len=Math.floor((Math.random()*26)+1);
+            for(i=0;i<len;i++){
+                var rand=Math.floor(Math.random()*26);
+                document.getElementById("out").innerHTML+="&nbsp"+alpha[rand];
+                
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <main class="m" >
+    <section>
+       <span id="al"> <pre><h1>Alphabets</h1></pre>  </span>
+       <br><br>
+       <button onclick="generate()">Generate Alphabets</button>
+       <br><br>
+       <div class="container">
+            <span id="out"></span>
+       </div>
+    </section>
+</main>
+</body>
+</html>

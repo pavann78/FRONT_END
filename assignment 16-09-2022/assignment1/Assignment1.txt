@@ -1,0 +1,3 @@
+Problem Statement - Creating a flexbox layout for the given image using CSS.
+Research - I have used the various concepts taught in previous classes and from online sources on how to effectively use the flex layout model.
+This assignment taught me how to design the flexbox layouts using CSS Styling 

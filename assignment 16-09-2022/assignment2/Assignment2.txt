@@ -1,0 +1,3 @@
+Problem-Generate random alphabets on the container on every click 
+Research-For solving this problem I have reffered online sources and concepts taught in previous classes.
+From this assignment I learnt how to generate random variables from the array using Math.random() function and display it inside a container
